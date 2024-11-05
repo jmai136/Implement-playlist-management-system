@@ -5,7 +5,8 @@ Remove a song by title.
 Print the playlist forward and backward.
 Basic Project Code:
 
-```public class SongNode
+```
+public class SongNode
 {
     public string Title { get; set; }
     public string Artist { get; set; }
@@ -55,7 +56,9 @@ public class Playlist
             current = current.Next;
         }
     }
-}```
+}
+```
+
 Solution:
 Full implementation should include methods for adding songs at specific positions, removing by title, and reverse printing.
 You should test adding and removing songs, ensuring both forward and backward printing are correct.
